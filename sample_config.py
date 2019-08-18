@@ -17,6 +17,8 @@ class Config(object):
     # confidential session files
     HU_STRING_SESSION = os.environ.get("HU_STRING_SESSION", None)
     # Get your own APPID from https://api.openweathermap.org/data/2.5/weather
+    GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
+    GIT_REPO_NAME = os.environ.get("GIT_REPO_NAME", None)
     OPEN_WEATHER_MAP_APPID = os.environ.get("OPEN_WEATHER_MAP_APPID", None)
     # Get your own ACCESS_KEY from http://api.screenshotlayer.com/api/capture
     SCREEN_SHOT_LAYER_ACCESS_KEY = os.environ.get("SCREEN_SHOT_LAYER_ACCESS_KEY", None)
