@@ -11,6 +11,7 @@ gsearch
 gtts
 hachoir
 Pillow
+PyGithub
 psycopg2
 pySmartDL
 python-barcode
