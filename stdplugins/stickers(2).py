@@ -45,8 +45,8 @@ async def _(event):
 
     me = borg.me
     userid = event.from_id
-    packname = f"{userid}'s @r4v4n4 Pack"
-    packshortname = f"r4v4n4_{userid}"  # format: r4v4n4_userid
+    packname = f"{userid}'s @kingtarun1 Pack"
+    packshortname = f"kingtarun1_{userid}"  # format: r4v4n4_userid
 
     is_a_s = is_it_animated_sticker(reply_message)
     file_ext_ns_ion = "@r4v4n4_Sticker.png"
@@ -55,7 +55,7 @@ async def _(event):
     if is_a_s:
         file_ext_ns_ion = "AnimatedSticker.tgs"
         uploaded_sticker = await borg.upload_file(file, file_name=file_ext_ns_ion)
-        packname = f"{userid}'s RAVANA @R4V4N4 Animated"
+        packname = f"{userid}'s TARUN @KINGTARUN1 Animated"
         packshortname = f"Uni_Borg_{userid}_as"  # format: Uni_Borg_userid
     elif not is_message_image(reply_message):
         await event.edit("Invalid message type")
