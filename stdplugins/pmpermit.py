@@ -53,7 +53,7 @@ async def monito_p_m_s(event):
             borg.storage.PREV_REPLY_MESSAGE[chat.id] = r
 
 
-@borg.on(admin_cmd("approvepm ?(.*)"))
+@borg.on(admin_cmd("pm ?(.*)"))
 async def approve_p_m(event):
     if event.fwd_from:
         return
