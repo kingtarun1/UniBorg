@@ -255,7 +255,7 @@ async def _(event):
 
             "😡",
 
-            "😢",https://github.com/kingtarun1/UniBorg/edit/master/stdplugins/load.py
+            "😢",
 
             "‎**Repo by @kingtarun1**",
  
