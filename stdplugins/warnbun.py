@@ -32,7 +32,7 @@ from uniborg.util import admin_cmd
 async def _(event):
     if event.fwd_from:
         return
-    mentions = "`You Have  2/3  warnings...\nWatch out!....\nReason for last warn: Porn Demand`"
+    mentions = "`You Have  2/3  warnings...\nWatch out!....\nReason for last warn: More Porn Demand`"
     chat = await event.get_input_chat()
     async for x in borg.iter_participants(chat, filter=ChannelParticipantsAdmins):
         mentions += f""
@@ -55,7 +55,7 @@ from uniborg.util import admin_cmd
 async def _(event):
     if event.fwd_from:
         return
-    mentions = "`You Have  3/3  warnings...\nBanned!!!....\nReason for ban: Porn Demand`"
+    mentions = "`You Have  3/3  warnings...\nBanned!!!....\nReason for ban: Pornstar Girl Demand nunnu khada ni hota aur Demand Pornstar ki`"
     chat = await event.get_input_chat()
     async for x in borg.iter_participants(chat, filter=ChannelParticipantsAdmins):
         mentions += f""
@@ -101,7 +101,7 @@ from uniborg.util import admin_cmd
 async def _(event):
     if event.fwd_from:
         return
-    mentions = "`Warning!! User 𝙂𝘽𝘼𝙉𝙉𝙀𝘿 By Admin...\nReason: Potential Tharki. `"
+    mentions = "`User 𝙂𝘽𝘼𝙉𝙉𝙀𝘿 By @kingtarun1...\nReason: maan kia toh de diya 😂. `"
     chat = await event.get_input_chat()
     async for x in borg.iter_participants(chat, filter=ChannelParticipantsAdmins):
         mentions += f""
