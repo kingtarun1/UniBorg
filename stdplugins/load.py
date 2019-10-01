@@ -255,9 +255,9 @@ async def _(event):
 
             "😡",
 
-            "😢",
+            "😢",https://github.com/kingtarun1/UniBorg/edit/master/stdplugins/load.py
 
-            "‎**Repo by @r4v4n4**",
+            "‎**Repo by @kingtarun1**",
  
             "😁",
 
@@ -267,7 +267,7 @@ async def _(event):
 
             "😢",
 
-            "‎github.com/ravana69/pornhub",
+            "‎github.com/kingtarun1/UniBorg",
 
             "__**RePe GeNg Is BeHiNd You....**__"
 
