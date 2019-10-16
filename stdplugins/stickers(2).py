@@ -49,7 +49,7 @@ async def _(event):
     packshortname = f"TarunMasterpiece"  # format: r4v4n4_userid
 
     is_a_s = is_it_animated_sticker(reply_message)
-    file_ext_ns_ion = "@r4v4n4_Sticker.png"
+    file_ext_ns_ion = "@kingtarun1_Sticker.png"
     file = await borg.download_file(reply_message.media)
     uploaded_sticker = None
     if is_a_s:
