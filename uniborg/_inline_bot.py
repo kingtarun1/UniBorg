@@ -217,7 +217,7 @@ All instaructions to run @UniBorg in your PC has been explained in https://githu
             # https://t.me/TelethonChat/115200
             await event.edit(buttons=buttons)
         else:
-            reply_pop_up_alert = "Please get your own @UniBorg, and don't edit my messages!"
+            reply_pop_up_alert = "Bas kar BetiChod, Maa Ke Laude, MadarChod"
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
 
